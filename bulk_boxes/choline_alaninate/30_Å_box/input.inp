@@ -1,0 +1,18 @@
+tolerance 2.0
+filetype pdb
+output choline_alaninate_bulk_acyclovir.pdb
+
+structure ../choline.pdb
+  number 30
+  inside box 0. 0. 0. 30. 30. 30.
+end structure
+
+structure ../alaninate.pdb
+  number 30
+  inside box 0. 0. 0. 30.0 30.0 30.0
+end structure
+
+structure ../acyclovir.pdb
+  number 15
+  inside box 0. 0. 0. 30.0 30.0 30.0
+end structure
